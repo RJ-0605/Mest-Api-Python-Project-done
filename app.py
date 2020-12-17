@@ -113,7 +113,7 @@ def recievejsondatapost():
 		print(course_predictions)
 		
 	top_courses = []
-	course_count = 5 
+	course_count = 3 
 	for k in range(course_count):
 		temp_course = course_predictions[0][0]
 		temp_pred = course_predictions[0][1]
