@@ -60,8 +60,8 @@ data['people'].append({
 
 @app.route('/', methods=['GET'])
 def home():
-    return '''<h1>Distant Reading Archive</h1>
-              <p>A prototype API for distant reading of science fiction novels.</p>'''
+    return '''<h1>Mest AI/ Project  Api </h1>
+              <p>A prototype API for selecting and grouping students based on bio data -- Ai was trained with excel data collated.</p>'''
 
 
 @app.route('/api/v1/resources/books/all', methods=['GET'])
